@@ -1,0 +1,44 @@
+Predicting stock prices using Facebook's Prophet Model 🍋
+
+👋 Introduction
+This is a public lemon.markets repository that demonstrates a simple implementation of the mean-reversion trading strategy with the lemon.markets API. Based on your preference you can trade based off the 10-Day Simple Moving Average or the 10-Day Exponential Moving Average with our pre-built functions (the number of days the averages are calculated over can be changed too)! To get a general understanding of the API, please refer to our documentation.
+
+A walk-through of this script can be found in our YouTube video.
+
+🏃‍♂️ Quick Start
+Not interested in reading a novella before you get started? We get it! To get this project up and running quickly, here's what you need to do:
+
+Clone this repository;
+Sign up to lemon.markets
+Configure your environment variables as outlined in the 'Configuration' section;
+Take a look at the demo functions in main.py, and, if you want to, check out our accompanying YouTube video!
+Run the script & see how it performs!
+🔌 API Usage
+This project uses the lemon.markets API and the lemon.markets Python SDK.
+
+lemon.markets is a brokerage API by developers for developers that allows you to build your own experience at the stock market. We will use the Market Data API and Trading API to build a mean reversion trading strategy in this project!
+
+If you do not have a lemon.markets account yet, you can sign up at lemon.markets.
+
+⚙️ Configuration
+The script uses several environment variables, configure your .env file as follows:
+
+ENV Variable	Explanation
+DATA_API_KEY	Your market data API key
+TRADING_API_KEY	Your paper/money trading API key
+MIC	Market Identifier Code of Trading Venue
+☁️ Deploy to Heroku
+If you are interested in hosting this project in the cloud, we suggest that you use Heroku to do so. To make the hosting work, you need to create a new project and connect your GitHub repo. You can find a good explanation here. Additionally, you need to specify the environment variables through Heroku directly. You can do so by either using:
+
+heroku config:set [KEY_NAME=value …]
+or by adding them in your project in the Heroku Dashboard under /Settings/Config Vars.
+
+Use this button to deploy to Heroku directly.
+
+Deploy
+
+Contribute to this repository
+lemon.markets is an API from developers for developers and this (and all lemon.markets open source projects) is(are) a work in progress. Therefore, we highly encourage you to get involved by opening a PR or contacting us directly via support@lemon.markets.
+
+Looking forward to building lemon.markets with you 🍋
+
