@@ -8,7 +8,7 @@ You can find an article linked to this repo here
 ### Quick Start 🏃‍♂️: ###
 1. sign up to lemon.markets
 2. clone this repo
-3. Change the market_data_api_key in `get_data.py with your personal lemon.markets API key
+3. Change the market_data_api_key in `get_data.py` with your personal lemon.markets API key
 4. run get_data.ipynb to get the csv file containing the stock data
 5. run prophet-model-v3-Hyperparameter tuning.ipynb two evaluate the best values for your parameters
 6. feed the parameters from step 5 into your model in tuned_model.ipynb
