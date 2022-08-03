@@ -1,4 +1,4 @@
-##### Predicting stock prices using Facebook's Prophet Model 🍋 #####
+# Predicting stock prices using Facebook's Prophet Model 🍋 #
 
 👋 Introduction
 This is a public lemon.markets repository that showcases how to utilize Facebook's Prophet model in an attempt to forecast the close price of the Tesla Stock. The repo consists of two folders. TSLA - c prices contains the model build using the actual closing prices while TSLA - c differences contains 3 models build using the price difference, price log difference and price percentage difference.
