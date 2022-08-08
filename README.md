@@ -1,16 +1,16 @@
 # Predicting stock prices using Facebook's Prophet Model 🍋 #
 
 ### 👋 Introduction ###
-This is a public lemon.markets repository that showcases how to utilize Facebook's Prophet model in an attempt to forecast the close price of the Tesla Stock. The repo consists of two folders. TSLA - c prices contains the model build using the actual closing prices while TSLA - c differences contains 3 models build using the price difference, price log difference and price percentage difference.
+This is a public lemon.markets repository that showcases how to utilize Facebook's Prophet model in an attempt to forecast the close price of the Tesla Stock. The repo consists of two folders. TSLA - c prices contains the model built using the actual closing prices while TSLA - c differences contains 3 models built using the price difference, price log difference and price percentage difference.
 
 You can find an article linked to this repo here
 
 ### Quick Start 🏃‍♂️: ###
 1. sign up to lemon.markets
 2. clone this repo
-3. Change the market_data_api_key in `get_data.py` with your personal lemon.markets API key
+3. Change the market_data_api_key in `get_data.ipynb` with your personal lemon.markets API key
 4. run `get_data.ipynb` to get the csv file containing the stock data
-5. run `prophet-model-v3-Hyperparameter tuning.ipynb` two evaluate the best values for your parameters
+5. run `prophet-model-v3-Hyperparameter tuning.ipynb` to evaluate the best values for your parameters
 6. feed the parameters from step 5 into your model in `tuned_model.ipynb`
 7. forecast away
 
